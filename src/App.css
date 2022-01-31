@@ -1,0 +1,80 @@
+#root {
+  background-color: #303030;
+}
+body,
+p {
+  font-size: 18px;
+  color: #e8e8e8;
+}
+
+footer {
+  background-color: #082231;
+  color: white;
+}
+
+.navmenu {
+  background-color: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+  color: #e8e8e8;
+  transition: all 0.5s ease-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+.first_section {
+  background-image: url("./assets/images/top_ban.jpg");
+  padding: 2rem;
+  /* background-attachment: fixed; */
+}
+.first_section .hero-body h1 {
+  text-transform: uppercase;
+}
+.second_section {
+  background-color: #000;
+}
+
+.second_section h1 span,
+.third_section h1 span {
+  text-transform: uppercase;
+}
+.second_section column {
+  text-align: right;
+}
+.third_section {
+  background-color: #162e50;
+}
+.third_section .column {
+  padding: 2rem;
+}
+.third_section .column p {
+  text-align: left;
+}
+.fourth_section {
+  background-color: #162e50;
+}
+.nav-link {
+  transition: all 0.5s ease-out;
+  color: #f5f5f5;
+}
+.searchbox input {
+  background-image: url("./assets/images/search_bar_001.png");
+  padding: 16px 10px 22px 43px;
+  text-align: left;
+  width: 599px;
+}
+.yellow_border {
+  background-image: url("./assets/images/yellow_border_01.png");
+  width: 48px;
+  height: 9px;
+  position: absolute;
+  margin-top: 40px;
+}
+.subscribe input {
+  background-image: url("./assets/images/email_0090.png");
+  width: 100%;
+  height: 63px;
+}
